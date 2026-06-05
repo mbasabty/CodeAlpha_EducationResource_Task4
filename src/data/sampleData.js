@@ -35,3 +35,9 @@ export const insightCards = [
   { title: 'Students At Risk', value: '28', trend: 'down', detail: '11.2% of total' },
   { title: 'Teacher Capacity', value: '78%', trend: 'down', detail: 'vs optimal ratio' }
 ];
+
+export const gapAnalysisData = [
+  {department: 'Engineering', required: 20, available: 15, gap: 5,},
+  {department: 'Design', required: 10, available: 8, gap: 2,},
+  {department: 'QA', required: 12,available: 9,gap: 3,}
+];

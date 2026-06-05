@@ -1,49 +1,60 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import TabNavigation from './components/TabNavigation';
-import PerformanceChart from './components/PerformanceChart';
-import ResourceChart from './components/ResourceChart';
+import Header from './components/Header.jsx';
+import TabNavigation from './components/TabNavigation.jsx';
+import PerformanceChart from './components/PerformanceChart.jsx';
+import PerformanceDistributionChart from './components/PerformanceDistributionChart.jsx';
+import ResourceChart from './components/ResourceChart.jsx';
+import GapAnalysisChart from './components/GapAnalysisChart.jsx';
+
 import {
   performanceData,
   resourceData,
   performanceDistribution,
+  gapAnalysisData,
   insightCards
 } from './data/sampleData';
+
 import './App.css';
 
 function App() {
   const [activeTab, setActiveTab] = useState('overview');
 
   const renderTabContent = () => {
-    switch(activeTab) {
+    switch (activeTab) {
       case 'overview':
         return (
-          <div>
-            <div className="grid-2">
-              <PerformanceChart data={performanceData} />
-              {/* Add PerformanceDistributionChart here */}
-            </div>
+          <div className="grid-2">
+            <PerformanceChart data={performanceData} />
+            <PerformanceDistributionChart
+              data={performanceDistribution}
+            />
           </div>
         );
+
       case 'resources':
         return (
           <div className="grid-2">
             <ResourceChart data={resourceData} />
-            {/* Add Gap Analysis Chart here */}
+            <GapAnalysisChart data={gapAnalysisData} />
           </div>
         );
+
       case 'staffing':
         return (
-          <div>
-            <p>Staffing content will go here</p>
+          <div className="card">
+            <h2>Staffing Analysis</h2>
+            <p>Staffing content will go here.</p>
           </div>
         );
+
       case 'recommendations':
         return (
-          <div>
-            <p>Recommendations content will go here</p>
+          <div className="card">
+            <h2>Recommendations</h2>
+            <p>Recommendations content will go here.</p>
           </div>
         );
+
       default:
         return null;
     }
@@ -52,7 +63,11 @@ function App() {
   return (
     <div className="App">
       <Header insights={insightCards} />
-      <TabNavigation activeTab={activeTab} setActiveTab={setActiveTab} />
+      <TabNavigation
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+      />
+
       <main className="main-content">
         {renderTabContent()}
       </main>
