@@ -1,71 +1,117 @@
-# Getting Started with Create React App
+# Educational Performance & Resource Allocation Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive dashboard designed to evaluate student performance and optimize resource allocation in educational institutions. The dashboard provides actionable insights into academic achievement, attendance trends, resource utilization, and overall institutional performance, enabling data-driven decision-making.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+**Dashboard Website:**  
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Objective
 
-### `npm test`
+Develop a dashboard to support educational management by:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Monitoring student academic performance.
+- Tracking attendance and engagement metrics.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dashboard Pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Academic Performance Overview
+2. Resource Analysis Dashboard
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React.js** – Frontend Development
+- **Chart.js / Recharts** – Data Visualization
+- **JavaScript (ES6+)** – Application Logic
+- **HTML5 & CSS3** – User Interface Design
+- **CSV / JSON Datasets** – Data Sources
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+Make sure you have the following installed:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Node.js (v18 or later)
+- npm (comes with Node.js)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Clone the Repository
 
-### Code Splitting
+```bash
+git clone https://github.com/mbasabty/CodeAlpha_EducationResource_Task4.git
+cd CodeAlpha_EducationResource_Task4
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Install Dependencies
 
-### Analyzing the Bundle Size
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Run the Application
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Open your browser and navigate to:
 
-### Advanced Configuration
+```text
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Build for Production
 
-### Deployment
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Run Tests
 
-### `npm run build` fails to minify
+```bash
+npm test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# CodeAlpha_EducationResource_Task4
+---
+
+## Key Performance Indicators (KPIs)
+
+- Performance Growth
+- Resource Efficency
+- Students at risk
+- Teacher Capacity
+
+---
+
+## Dashboard Features
+
+- Interactive academic performance visualizations.
+
+---
+
+## Dashboard Preview
+
+<img width="1440" alt="Dashboard Screenshot 1" src="/education-dashboard/src/images/img1.png" />
+<img width="1440" alt="Dashboard Screenshot 2" src="/education-dashboard/src/images/img2.png" />
+
+
+---
+
+## Author
+
+**Mbasa Batyi**
+
+---
+
+## License
+
+This project was developed for educational and portfolio purposes. Feel free to explore, learn from, and customize the project.
