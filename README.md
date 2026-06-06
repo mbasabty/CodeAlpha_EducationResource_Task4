@@ -100,8 +100,9 @@ npm test
 
 ## Dashboard Preview
 
-<img width="1440" alt="Dashboard Screenshot 1" src="/education-dashboard/src/images/img1.png" />
-<img width="1440" alt="Dashboard Screenshot 2" src="/education-dashboard/src/images/img2.png" />
+<img width="1440" height="900" alt="Screenshot 2026-06-06 at 14 03 54" src="https://github.com/user-attachments/assets/f9ebfc07-5839-4016-b1a1-df9ad4509fc4" />
+<img width="1440" height="900" alt="Screenshot 2026-06-06 at 14 04 56" src="https://github.com/user-attachments/assets/6a065dfd-3fc5-46c6-b9c1-dfe5512893d7" />
+
 
 
 ---
